@@ -1,1 +1,132 @@
-你好
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="个人博客，分享我的旅程和见解">
+    <meta name="keywords" content="个人博客, 博客, 写作, 技术, 生活">
+    <title>我的个人博客</title>
+    <!-- 引入外部CSS文件或编写内联CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+        color: #333;
+      }
+
+      header {
+        background-color: #333;
+        color: #fff;
+        padding: 15px 0;
+        text-align: center;
+      }
+
+      header h1 {
+        margin: 0;
+        font-size: 2.5em;
+      }
+
+      nav {
+        display: flex;
+        justify-content: center;
+        background-color: #444;
+        padding: 10px 0;
+      }
+
+      nav a {
+        color: #fff;
+        padding: 10px 20px;
+        text-decoration: none;
+        font-size: 1.1em;
+      }
+
+      nav a:hover {
+        background-color: #555;
+      }
+
+      .container {
+        width: 80%;
+        margin: 20px auto;
+        overflow: hidden;
+      }
+
+      .post {
+        background: #fff;
+        padding: 20px;
+        margin-bottom: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+
+      .post h2 {
+        margin-top: 0;
+      }
+
+      .post p {
+        line-height: 1.6;
+      }
+
+      .post .read-more {
+        color: #333;
+        text-decoration: none;
+        font-weight: bold;
+      }
+
+      footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 15px 0;
+        margin-top: 20px;
+      }
+
+      footer p {
+        margin: 0;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- 头部区域 -->
+    <header>
+      <h1>欢迎来到我的博客</h1>
+      <p>分享我的旅程和见解</p>
+    </header>
+
+    <!-- 导航栏 -->
+    <nav>
+      <a href="#">首页</a>
+      <a href="#about">关于我</a>
+      <a href="#posts">博文</a>
+      <a href="#contact">联系我</a>
+    </nav>
+
+    <!-- 主内容区域 -->
+    <div class="container">
+      <!-- 博文部分 -->
+      <section id="posts">
+        <article class="post">
+          <h2>我的第一篇博文</h2>
+          <p>这是一段示例文本，描述了博客文章的摘要内容。点击阅读更多查看完整内容。</p>
+          <a href="#" class="read-more">阅读更多</a>
+        </article>
+
+        <article class="post">
+          <h2>技术技巧与分享</h2>
+          <p>在这篇文章中，我将分享一些有用的技术技巧，帮助你提升效率。</p>
+          <a href="#" class="read-more">阅读更多</a>
+        </article>
+
+        <!-- 更多博文... -->
+      </section>
+    </div>
+
+    <!-- 页脚 -->
+    <footer>
+      <p>&copy; 2024 我的个人博客 | 由我自己创建</p>
+    </footer>
+  </body>
+</html>
