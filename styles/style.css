@@ -1,0 +1,45 @@
+.group1{
+    margin-top:50px;
+    margin-left:100px
+}
+
+.titlebig{
+    font-size: 30px;
+    font-family:"Maple Mono SC NF",monospace;
+
+}
+
+.title{
+    margin-top:10px;
+    font-size: 20px;
+}
+
+.kuang{
+    margin-top: 20px;
+}
+.input-box{
+    margin-top:-10px;
+    width: 400px;
+    height: 40px;
+    border :1px solid rgba(0, 0, 0, 0.334);
+    border-radius: 5px;
+    font-size:20px;
+    padding-left:10px;
+    padding-right:10px;
+}
+
+.password-toggle{
+    position:absolute;
+    top:340px;
+    left:470px;
+    transform:translateY(-50%);
+    cursor:pointer;
+    display: flex;
+    align-items: center;
+}
+.eye-icon{
+    width:20px;
+    height:20px;
+    background-image:"assets/1.svg";
+    margin-left:5px;
+}
