@@ -1,37 +1,244 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="zh-CN">
   <head>
     <meta charset="utf-8">
-    <title>asdf' s Blog</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Guanhao | Resume</title>
     <link rel="stylesheet" href="/styles/style.css">
   </head>
   <body>
-    <div class="group1">
-        <div class="titlebig">
-            Welcome to Design Community
-        </div>
-        <div class="title">
-            Already have an account? <a href="/login">Login</a>
-        </div>
-        <div class="kuang">
-            <p>Email</p>
-            <input class="input-box" type="text" name="" value="">
-        </div>
-        <div class="kuang">
-            <p>Username</p>
-            <input class="input-box" type="text" name="" value="">
-        </div>
-        <div class="kuang">
-            <p>Password</p>
-            
+    <header class="site-header">
+      <a class="brand" href="/">Guanhao</a>
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a href="#projects">Projects</a>
+        <a href="/works/">Works</a>
+        <a href="/blog/">Blog</a>
+        <a href="#contact">Contact</a>
+        <button class="lang-toggle" type="button" data-lang-toggle>EN</button>
+      </nav>
+    </header>
 
-            <input class="input-box" type="password" name="" value="">
-            <span class="password-toggle" id="toggle-password">
-                <i class="eye-icon"></i>
-                <span class="toggle-text">Hide</span>
+    <main class="cv-shell">
+      <section class="intro-grid" aria-labelledby="intro-title">
+        <aside class="identity-panel">
+          <p class="label">Resume / Portfolio</p>
+          <img class="avatar-photo" src="/assets/avatar.jpg" alt="Guanhao Zhao portrait">
+          <h1 id="intro-title">
+            <span data-lang="zh">赵冠豪</span>
+            <span data-lang="en">Guanhao Zhao</span>
+          </h1>
+          <p class="identity-line">
+            <span data-lang="zh">河北工业大学本科生</span>
+            <span data-lang="en">Undergraduate, Hebei University of Technology</span>
+          </p>
+          <dl class="quick-facts">
+            <div>
+              <dt>Focus</dt>
+              <dd>
+                <span data-lang="zh">算法竞赛、数据分析、计算机视觉、产品原型</span>
+                <span data-lang="en">Competitive programming, data analysis, computer vision, product prototyping</span>
+              </dd>
+            </div>
+            <div>
+              <dt>Language</dt>
+              <span data-lang="zh">英语六级 570分</span>
+                <span data-lang="en">CET6 570</span>
+            </div>
+            <div>
+              <dt>GitHub</dt>
+              <dd><a href="https://github.com/asdfghjkoiuy">github.com/asdfghjkoiuy</a></dd>
+            </div>
+          </dl>
+        </aside>
+
+        <div class="intro-copy">
+          <p class="label">
+            <span data-lang="zh">个人简介</span>
+            <span data-lang="en">Profile</span>
+          </p>
+          <p class="lead">
+            <span data-lang="zh">
+              我目前就读于河北工业大学，关注算法竞赛、数据分析、计算机视觉与产品原型设计。我的项目经历横跨 R 语言统计分析、视觉识别自动定位系统和校园社交产品设计；同时在程序设计竞赛与数字化创新设计比赛中积累了较强的问题拆解、工程实现和团队协作能力。
+我希望把扎实的计算机基础、实验实践能力和对产品体验的理解结合起来，持续构建有实际场景价值的技术项目。
             </span>
+            <span data-lang="en">
+              I am an undergraduate student at Hebei University of Technology with interests in competitive programming, data analysis, computer vision, and product prototyping. My work spans R-based statistical analysis, vision-based auto-positioning systems, and campus-oriented product design. Through programming contests and digital innovation competitions, I have developed strong problem decomposition, implementation, and collaboration skills.
+I aim to combine solid computer science fundamentals, hands-on engineering practice, and product thinking to build technology projects with real-world value.
+            </span>
+          </p>
+          <div class="action-row">
+            <a class="primary-action" href="/assets/docs/RHomework_en.pdf">
+              <span data-lang="zh">查看 R 课程报告</span>
+              <span data-lang="en">View R report</span>
+            </a>
+            <a class="secondary-action" href="/works/">
+              <span data-lang="zh">全部项目</span>
+              <span data-lang="en">All works</span>
+            </a>
+          </div>
         </div>
-        <script src="/scripts/script.js"></script>
-    </div>
+      </section>
+
+      <section class="cv-section" id="education" aria-labelledby="education-title">
+        <div class="section-title">
+          <span>01</span>
+          <h2 id="education-title">
+            <span data-lang="zh">教育经历</span>
+            <span data-lang="en">Education</span>
+          </h2>
+        </div>
+        <div class="timeline-list">
+          <article class="timeline-item">
+            <p class="time">2024 - Present</p>
+            <div>
+              <h3>
+                <span data-lang="zh">河北工业大学</span>
+                <span data-lang="en">Hebei University of Technology</span>
+              </h3>
+              <p>
+                <span data-lang="zh">本科在读。全部校内实验类课程成绩优秀。</span>
+                <span data-lang="en">Undergraduate student. Excellent performance in all on-campus laboratory courses.</span>
+              </p>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <p class="time">2021 - 2024</p>
+            <div>
+              <h3>
+                <span data-lang="zh">河北衡水中学</span>
+                <span data-lang="en">Hengshui High School, Hebei</span>
+              </h3>
+              <p>
+                <span data-lang="zh">高中阶段完成系统基础训练，形成稳定的学习节奏和问题拆解能力。</span>
+                <span data-lang="en">Completed rigorous high-school training and developed disciplined learning and problem-solving habits.</span>
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="cv-section" id="projects" aria-labelledby="projects-title">
+        <div class="section-title">
+          <span>02</span>
+          <h2 id="projects-title">
+            <span data-lang="zh">项目经历</span>
+            <span data-lang="en">Projects</span>
+          </h2>
+        </div>
+        <div class="project-stack">
+          <article class="project-entry">
+            <div class="project-head">
+              <h3>Correlation Analysis of the Abundance of Three Dominant Benthic Species</h3>
+              <a href="/assets/docs/RHomework_en.pdf">PDF</a>
+            </div>
+            <p class="tag-line">
+              <span>R</span>
+              <span data-lang="zh">R 语言课满分作业</span>
+              <span data-lang="en">Full-mark R coursework</span>
+            </p>
+            <p>
+              <span data-lang="zh">
+                围绕波罗的海 Schleswig-Holstein 海岸三种优势底栖物种丰度进行相关分析，完成数据整理、可视化、统计解释和英文报告。
+              </span>
+              <span data-lang="en">
+                An R-based statistical report analyzing abundance correlations among three dominant benthic species along the Schleswig-Holstein coast of the Baltic Sea.
+              </span>
+            </p>
+          </article>
+
+          <article class="project-entry">
+            <div class="project-head">
+              <h3>
+                <span data-lang="zh">基于 YOLO26 的视觉识别自动定位激光除草原型设计</span>
+                <span data-lang="en">YOLO26-based Vision Recognition and Auto-positioning Laser Weeding Prototype</span>
+              </h3>
+              <a href="/works/#laser-weeding">Detail</a>
+            </div>
+            <p class="tag-line">
+              <span>CV</span>
+              <span data-lang="zh">计算机视觉 / 原型系统</span>
+              <span data-lang="en">Computer vision / prototype system</span>
+            </p>
+            <p>
+              <span data-lang="zh">
+                面向精准农业除草场景，设计目标检测、自动定位和激光执行链路的原型方案。
+              </span>
+              <span data-lang="en">
+                A precision-agriculture prototype concept connecting target detection, auto-positioning, and laser execution.
+              </span>
+            </p>
+          </article>
+
+          <article class="project-entry">
+            <div class="project-head">
+              <h3>河意位 Right person with you in HEBUT</h3>
+              <a href="/works/#right-person">Detail</a>
+            </div>
+            <p class="tag-line">
+              <span>UX</span>
+              <span data-lang="zh">约会匹配系统设计</span>
+              <span data-lang="en">Dating match system design</span>
+            </p>
+            <p>
+              <span data-lang="zh">
+                围绕河北工业大学校园社交需求，设计用户资料、匹配规则、推荐流程和安全边界。
+              </span>
+              <span data-lang="en">
+                A HEBUT campus matching concept covering profile design, matching rules, recommendation flow, and safety boundaries.
+              </span>
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="cv-section" id="awards" aria-labelledby="awards-title">
+        <div class="section-title">
+          <span>03</span>
+          <h2 id="awards-title">
+            <span data-lang="zh">比赛奖项</span>
+            <span data-lang="en">Awards</span>
+          </h2>
+        </div>
+        <div class="award-grid">
+          <article>
+            <p class="time">2026</p>
+            <h3>
+              <span data-lang="zh">CCPC 全国邀请赛（秦皇岛）暨第十届河北省大学生程序设计竞赛</span>
+              <span data-lang="en">CCPC National Invitational Contest (Qinhuangdao) & 10th Hebei Collegiate Programming Contest</span>
+            </h3>
+            <p>
+              <span data-lang="zh">全国邀请赛银牌</span>
+              <span data-lang="en">Silver Medal, National Invitational Division</span>
+            </p>
+          </article>
+          <article>
+            <p class="time">2025</p>
+            <h3>Digital Design Dimensions Show</h3>
+            <p>
+              <span data-lang="zh">全国三维数字化创新设计大赛全国三等奖，作品《光刃拓荒者》</span>
+              <span data-lang="en">National Third Prize, Digital Design Dimensions Show 2025, work: Lightblade Pioneer</span>
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="cv-section compact-section" id="contact" aria-labelledby="contact-title">
+        <div class="section-title">
+          <span>04</span>
+          <h2 id="contact-title">
+            <span data-lang="zh">联系与链接</span>
+            <span data-lang="en">Contact & Links</span>
+          </h2>
+        </div>
+        <div class="link-row">
+          <a href="https://github.com/asdfghjkoiuy">GitHub</a>
+          <a href="/works/">Works</a>
+          <a href="/blog/">Blog</a>
+          <a href="mailto:245331@stu.hebut.edu.cn">245331@stu.hebut.edu.cn</a>
+        </div>
+      </section>
+    </main>
+
+    <script src="/scripts/script.js"></script>
   </body>
 </html>
