@@ -38,6 +38,10 @@ a:hover {
   text-underline-offset: 3px;
 }
 
+[hidden] {
+  display: none !important;
+}
+
 [data-lang="en"] {
   display: none;
 }
